@@ -1,10 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
 // Colors
 :root {
-  --color-bg: #fff;
+  --color-bg: #0a0c1c;
+  --color-bg-2: #1b1937;
+  --color-font: #fff;
+  --color-highlight: #ab5cdb;
+  --weight-regular: 400;
+  --weight-bold: 700;
 }
 
 // Fonts
-$font: Arial, Helvetica, sans-serif;
+$font: "Inter", sans-serif;
+$font-2: "Lexend Deca", sans-serif;
 
 // Breakpoints
 $sm: 320px;

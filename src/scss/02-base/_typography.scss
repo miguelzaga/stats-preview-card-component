@@ -2,4 +2,18 @@
 
 body {
   font-family: $font;
+  color: var(--color-font);
+  font-weight: var(--weight-regular);
+}
+
+h1 {
+  font-size: rem(28px);
+  line-height: 1.14;
+  font-weight: var(--weight-bold);
+}
+
+h2 {
+  font-size: rem(24px);
+  line-height: 29px;
+  font-weight: var(--weight-bold);
 }
