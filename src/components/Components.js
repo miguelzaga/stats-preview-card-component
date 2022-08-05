@@ -33,7 +33,7 @@ function Component() {
             <p className="component__li-name">templates</p>
           </li>
           <li className="component__li">
-            <h2 className="component__li-stat">12m+</h2>
+            <h2 className="component__li-stat">12M+</h2>
             <p className="component__li-name">queries</p>
           </li>
         </ul>

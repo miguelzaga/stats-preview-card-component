@@ -1,9 +1,11 @@
 @use "./../01-abstracts/" as *;
 
 body {
+  font-size: rem(15px);
   font-family: $font;
   color: var(--color-font);
   font-weight: var(--weight-regular);
+  line-height: 1.67;
 }
 
 h1 {

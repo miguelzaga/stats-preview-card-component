@@ -6,6 +6,8 @@
   overflow: hidden;
   box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
   max-width: 1110px;
+  display: flex;
+  flex-flow: column nowrap;
 
   &__image {
     &-bg {
@@ -23,5 +25,38 @@
 
     mix-blend-mode: multiply;
     opacity: 0.75;
+  }
+
+  &__main {
+    padding: 40px 32px 32px 31px;
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__desc {
+    opacity: 0.75;
+    margin-bottom: 40px;
+  }
+
+  &__stats {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 24px;
+  }
+
+  &__li-stat {
+    margin-bottom: 2px;
+  }
+
+  &__li-name {
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: rem(12px);
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 25px;
   }
 }
