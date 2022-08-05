@@ -1,7 +1,19 @@
+import imgMobile from "../images/image-header-mobile.jpg";
+import imgDesktop from "../images/image-header-desktop.jpg";
+
 function Component() {
   return (
     <section className="component">
-      <img className="component__image" src="" alt="" srcSet="" sizes="" />
+      <div className="component__image-bg">
+        <img
+          className="component__image"
+          src={imgMobile}
+          alt="Three women working in an office "
+          srcSet={`${imgMobile} 654w, ${imgDesktop} 540w`}
+          sizes="(max-width: 960px) 654px,
+        540px"
+        />
+      </div>
       <div className="component__main">
         <h1 className="component__title">
           Get <span className="highlight">insights</span> that help your
