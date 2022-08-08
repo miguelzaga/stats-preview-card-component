@@ -19,3 +19,11 @@ h2 {
   line-height: 29px;
   font-weight: var(--weight-bold);
 }
+
+// Desktop
+@include breakpoint($md) {
+  h1 {
+    font-size: rem(36px);
+    line-height: 1.22;
+  }
+}

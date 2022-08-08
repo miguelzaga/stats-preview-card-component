@@ -59,4 +59,40 @@
     font-family: "Lexend Deca", sans-serif;
     line-height: 25px;
   }
+
+  // Desktop
+  @include breakpoint($md-lg) {
+    flex-direction: row-reverse;
+
+    &__image {
+      // max-width: unset;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__main {
+      max-width: 570px;
+      text-align: left;
+    }
+
+    &__title {
+      margin-bottom: 25px;
+    }
+
+    &__desc {
+      margin-bottom: 72px;
+      max-width: 374px;
+    }
+
+    &__stats {
+      flex-direction: row;
+      gap: 60px;
+    }
+  }
+
+  @include breakpoint($lg) {
+    &__main {
+      padding: 71px 95px 59px 72px;
+    }
+  }
 }
