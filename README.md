@@ -1,12 +1,56 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Stats preview card component solution
 
-Your challenge is to build out this card component and get it looking as close to the design as possible.
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Table of contents
 
-Your users should be able to:
+- [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
+![](./screenshot.jpg)
+
+### Links
+
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-with-react-and-scss-mWhP_7rx9e](https://www.frontendmentor.io/solutions/stats-preview-card-component-with-react-and-scss-mWhP_7rx9e)
+- Live Site URL: [https://stats-preview-card-component-phi-seven.vercel.app/](https://stats-preview-card-component-phi-seven.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+### What I learned
+
+I am practicing setting up React
+
+### Useful resources
+
+- [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) - This helped me to adjust the component image.
+
+## Author
+
+- Frontend Mentor - [@miguelzaga](https://www.frontendmentor.io/profile/miguelzaga)
